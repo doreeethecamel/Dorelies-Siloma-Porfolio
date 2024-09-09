@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Dorelies Siloma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Portfolio</h2>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Dorelies Siloma</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a passionate and motivated web developer with a keen interest in building scalable and efficient web applications. With a solid foundation in web technologies and a dedication to continuous learning, I am eager to contribute to impactful projects and grow within a dynamic team.</p>
+
+            <div class="socials">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="docs\Dorelies Siloma Resume.pdf" class="btn" download>Download CV</a>
+
+        </div>
+        
+        <div class="home-img">
+            <img src="home-img.jpg" alt="Dorelies Siloma">
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-img.jpg" alt="Dorelies Siloma">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer & Computer Science Graduate</h3>
+            <p>
+                I recently graduated with a degree in Computer Science, where I developed a strong foundation in both front-end and back-end web development. During my studies, I gained proficiency in programming languages like HTML, CSS, JavaScript, PHP, and C#, as well as frameworks such as Laravel and .NET. I also studied database management, algorithms, and software engineering principles.
+            </p>
+            <p>
+                While my academic background has provided me with a solid understanding of web technologies, I am eager to further enhance my skills through practical experience in the workforce. I am particularly interested in applying my knowledge to real-world projects, collaborating with experienced professionals, and contributing to innovative solutions.
+            </p>
+            
+        </div>
+        
+    </section>
+
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development (PHP, .NET, Laravel)</h3>
+                <p>I have hands-on experience in web development using PHP, .NET, and Laravel. I am capable of building secure, scalable, and efficient web applications, tailored to meet business needs.</p>
+                
+            </div>
+            
+            <div class="skills-box">
+                <i class='bx bx-paint'></i>
+                <h3>Front-End Development (HTML, CSS, JavaScript)</h3>
+                <p>My front-end development skills allow me to create responsive and interactive user interfaces, ensuring a seamless user experience across devices.</p>
+                
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-data'></i>
+                <h3>Database Management (MySQL, SQL Server)</h3>
+                <p>I have experience in designing and managing databases, optimizing queries, and ensuring data integrity for robust and reliable applications.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Web Application</h4>
+                    <p>Developed a fully functional e-commerce website using Laravel, with features including product listings, shopping cart, and secure payment integration.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio2.jpg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects in a professional manner.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio3.jpg" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>Music Instrument Web Store</h4>
+                    <p>Designed and developed a web store for music instruments, featuring advanced search options, product categorization, and user reviews.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="send_mail.php" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | Dorelies Siloma</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!--js-->
+    <script src="script.js"></script>
+</body>
+</html>
